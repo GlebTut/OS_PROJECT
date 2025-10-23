@@ -71,7 +71,15 @@ int main() {
         }
         
         cout << "  Parent's final shared_value: " << shared_value << endl;
-        cout << endl << "Parent process terminating" << endl;
+        cout << endl << "PARENT: Process creation demonstration complete" << endl;
+        
+        // Display key concepts
+        cout << endl << "Key Concepts Demonstrated:" << endl;
+        cout << "- Process creation using fork() system call" << endl;
+        cout << "- Parent-child process relationship (PID and PPID)" << endl;
+        cout << "- Memory independence between processes (copy-on-write)" << endl;
+        cout << "- Process synchronization using wait()" << endl;
+        cout << "- Concurrent execution of parent and child processes" << endl;
     }
     
     return 0;
